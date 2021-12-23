@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner getName = new Scanner(System.in);
-        for (int i = 0; true; i++) {
-            System.out.println("Hello " + getName.nextLine());
-        }
+        String name;
+        System.out.print("Enter your name and press Enter ");
+        name = getName.next();
+        System.out.print("\nHello " + name);
     }
 }
+
